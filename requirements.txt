@@ -1,1 +1,10 @@
 fastapi[all]
+pymongo
+pydantic
+fastapi
+langchain
+langchain-community
+uvicorn
+langchain-core
+langchain-groq
+langchain-google-genai
