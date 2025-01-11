@@ -4,6 +4,12 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.chat_history import BaseChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.messages import HumanMessage
+import os
+from dot_env import load_env()
+
+load_env()
+
+os.getenviron["GOOGLE_API_KEYS"]= "AIzaSyBoHKr5qJ54IixWyCmgg4cgUop0KezakGw"
 
 # Import your chatbot-related setup
 from pymongo import MongoClient
