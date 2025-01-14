@@ -9,7 +9,7 @@ from dot_env import load_env()
 
 load_env()
 
-os.getenviron["GOOGLE_API_KEYS"]= "AIzaSyBoHKr5qJ54IixWyCmgg4cgUop0KezakGw"
+os.getenviron["GOOGLE_API_KEYS"]= ""
 
 # Import your chatbot-related setup
 from pymongo import MongoClient
